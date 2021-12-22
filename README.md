@@ -1,2 +1,2 @@
-# HackerEarthSolutions
-This Repository contains solution of HackerEarth's easy to hard questions.
+# Competitive Programming Solutions
+This Repository contains the solution of different Competitive Programming Questions.
