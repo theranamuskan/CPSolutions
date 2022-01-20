@@ -11,7 +11,10 @@ int main()
     {
         cout << i << " ";
     }
-
+// for(auto it=vec.begin();it!=vec.end();it++)
+// {
+//     cout<<*it<<" " ;
+// }
 // for (int i = 0; i < vec.size(); i++)
 // {
 //     /* code */
