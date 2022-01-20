@@ -15,7 +15,10 @@ int main()
 // for (int i = 0; i < vec.size(); i++)
 // {
 //     /* code */
-//     cout<<vec[i]<<" ";
+//     cout<<vec[i]<<" ";   it does not check the bound
+    
+//     or
+//         cout<<vec.at(i)<<" ";   this is better because it checks the bound 
 // }
 
     return 0;
