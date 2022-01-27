@@ -1,0 +1,13 @@
+class Solution {
+public:
+    bool containsDuplicate(vector<int>& nums)
+    {
+    
+        //the code below sorts the array 
+        sort(nums.begin(),nums.end());
+        
+        //the code below will return wheather array contains duplicate in the array or not
+        return unique(nums.begin(),nums.end())!=nums.end(); 
+    }
+    
+};
