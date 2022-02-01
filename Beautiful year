@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int n, a, b, c, d;
+    cin >> n;
+
+    while (n > 0)
+    {
+        n++;
+        a = n / 1000;     // get the first element
+        b = n / 100 % 10; // get the second element
+        c = n / 10 % 10;  // get the third element
+        d = n % 10;       // get the fourth element
+        if (a != b && a != c && a != d && b != c && b != d && c != d)
+        {
+            cout << n;
+            break;
+        }
+    }
+    return 0;
+}
