@@ -1,0 +1,18 @@
+#include <bits/stdc++.h>
+using namespace std;
+int main()
+{
+    ios::sync_with_stdio(0);
+    cin.tie(0);
+    int t, r;
+    cin >> t;
+    for (int i = 0; i < t; i++)
+    {
+        int h, m;
+        cin >> h >> m;
+        r = ((24 - h) * 60) - m;
+        cout << r << endl;
+    }
+
+    return 0;
+}
